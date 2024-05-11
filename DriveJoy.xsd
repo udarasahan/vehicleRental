@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DriveJoy" targetNamespace="http://tempuri.org/DriveJoy.xsd" xmlns:mstns="http://tempuri.org/DriveJoy.xsd" xmlns="http://tempuri.org/DriveJoy.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DriveJoy" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DriveJoy" msprop:Generator_DataSetName="DriveJoy">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="elecCar" msprop:Generator_RowEvHandlerName="elecCarRowChangeEventHandler" msprop:Generator_RowDeletedName="elecCarRowDeleted" msprop:Generator_RowDeletingName="elecCarRowDeleting" msprop:Generator_RowEvArgName="elecCarRowChangeEvent" msprop:Generator_TablePropName="elecCar" msprop:Generator_RowChangedName="elecCarRowChanged" msprop:Generator_RowChangingName="elecCarRowChanging" msprop:Generator_TableClassName="elecCarDataTable" msprop:Generator_RowClassName="elecCarRow" msprop:Generator_TableVarName="tableelecCar" msprop:Generator_UserTableName="elecCar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CarID" msprop:Generator_ColumnPropNameInRow="CarID" msprop:Generator_ColumnPropNameInTable="CarIDColumn" msprop:Generator_ColumnVarNameInTable="columnCarID" msprop:Generator_UserColumnName="CarID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CarName" msprop:Generator_ColumnPropNameInRow="CarName" msprop:Generator_ColumnPropNameInTable="CarNameColumn" msprop:Generator_ColumnVarNameInTable="columnCarName" msprop:Generator_UserColumnName="CarName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CarYear" msprop:Generator_ColumnPropNameInRow="CarYear" msprop:Generator_ColumnPropNameInTable="CarYearColumn" msprop:Generator_ColumnVarNameInTable="columnCarYear" msprop:Generator_UserColumnName="CarYear" type="xs:int" minOccurs="0" />
+              <xs:element name="CarPrice" msprop:Generator_ColumnPropNameInRow="CarPrice" msprop:Generator_ColumnPropNameInTable="CarPriceColumn" msprop:Generator_ColumnVarNameInTable="columnCarPrice" msprop:Generator_UserColumnName="CarPrice" type="xs:int" minOccurs="0" />
+              <xs:element name="CarAvailability" msprop:Generator_ColumnPropNameInRow="CarAvailability" msprop:Generator_ColumnPropNameInTable="CarAvailabilityColumn" msprop:Generator_ColumnVarNameInTable="columnCarAvailability" msprop:Generator_UserColumnName="CarAvailability" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CarTransmission" msprop:Generator_ColumnPropNameInRow="CarTransmission" msprop:Generator_ColumnPropNameInTable="CarTransmissionColumn" msprop:Generator_ColumnVarNameInTable="columnCarTransmission" msprop:Generator_UserColumnName="CarTransmission" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CarFuelType" msprop:Generator_ColumnPropNameInRow="CarFuelType" msprop:Generator_ColumnPropNameInTable="CarFuelTypeColumn" msprop:Generator_ColumnVarNameInTable="columnCarFuelType" msprop:Generator_UserColumnName="CarFuelType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecID" msprop:Generator_ColumnPropNameInRow="ecID" msprop:Generator_ColumnPropNameInTable="ecIDColumn" msprop:Generator_ColumnVarNameInTable="columnecID" msprop:Generator_UserColumnName="ecID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecName" msprop:Generator_ColumnPropNameInRow="ecName" msprop:Generator_ColumnPropNameInTable="ecNameColumn" msprop:Generator_ColumnVarNameInTable="columnecName" msprop:Generator_UserColumnName="ecName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecYear" msprop:Generator_ColumnPropNameInRow="ecYear" msprop:Generator_ColumnPropNameInTable="ecYearColumn" msprop:Generator_ColumnVarNameInTable="columnecYear" msprop:Generator_UserColumnName="ecYear" type="xs:int" minOccurs="0" />
+              <xs:element name="ecPrice" msprop:Generator_ColumnPropNameInRow="ecPrice" msprop:Generator_ColumnPropNameInTable="ecPriceColumn" msprop:Generator_ColumnVarNameInTable="columnecPrice" msprop:Generator_UserColumnName="ecPrice" type="xs:int" minOccurs="0" />
+              <xs:element name="ecAvailability" msprop:Generator_ColumnPropNameInRow="ecAvailability" msprop:Generator_ColumnPropNameInTable="ecAvailabilityColumn" msprop:Generator_ColumnVarNameInTable="columnecAvailability" msprop:Generator_UserColumnName="ecAvailability" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecTransmission" msprop:Generator_ColumnPropNameInRow="ecTransmission" msprop:Generator_ColumnPropNameInTable="ecTransmissionColumn" msprop:Generator_ColumnVarNameInTable="columnecTransmission" msprop:Generator_UserColumnName="ecTransmission" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecFuel" msprop:Generator_ColumnPropNameInRow="ecFuel" msprop:Generator_ColumnPropNameInTable="ecFuelColumn" msprop:Generator_ColumnVarNameInTable="columnecFuel" msprop:Generator_UserColumnName="ecFuel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CarID1" msprop:Generator_ColumnPropNameInRow="CarID1" msprop:Generator_ColumnPropNameInTable="CarID1Column" msprop:Generator_ColumnVarNameInTable="columnCarID1" msprop:Generator_UserColumnName="CarID1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CarName1" msprop:Generator_ColumnPropNameInRow="CarName1" msprop:Generator_ColumnPropNameInTable="CarName1Column" msprop:Generator_ColumnVarNameInTable="columnCarName1" msprop:Generator_UserColumnName="CarName1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CarYear1" msprop:Generator_ColumnPropNameInRow="CarYear1" msprop:Generator_ColumnPropNameInTable="CarYear1Column" msprop:Generator_ColumnVarNameInTable="columnCarYear1" msprop:Generator_UserColumnName="CarYear1" type="xs:int" minOccurs="0" />
+              <xs:element name="CarPrice1" msprop:Generator_ColumnPropNameInRow="CarPrice1" msprop:Generator_ColumnPropNameInTable="CarPrice1Column" msprop:Generator_ColumnVarNameInTable="columnCarPrice1" msprop:Generator_UserColumnName="CarPrice1" type="xs:int" minOccurs="0" />
+              <xs:element name="CarAvailability1" msprop:Generator_ColumnPropNameInRow="CarAvailability1" msprop:Generator_ColumnPropNameInTable="CarAvailability1Column" msprop:Generator_ColumnVarNameInTable="columnCarAvailability1" msprop:Generator_UserColumnName="CarAvailability1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CarTransmission1" msprop:Generator_ColumnPropNameInRow="CarTransmission1" msprop:Generator_ColumnPropNameInTable="CarTransmission1Column" msprop:Generator_ColumnVarNameInTable="columnCarTransmission1" msprop:Generator_UserColumnName="CarTransmission1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CarFuelType1" msprop:Generator_ColumnPropNameInRow="CarFuelType1" msprop:Generator_ColumnPropNameInTable="CarFuelType1Column" msprop:Generator_ColumnVarNameInTable="columnCarFuelType1" msprop:Generator_UserColumnName="CarFuelType1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecID1" msprop:Generator_ColumnPropNameInRow="ecID1" msprop:Generator_ColumnPropNameInTable="ecID1Column" msprop:Generator_ColumnVarNameInTable="columnecID1" msprop:Generator_UserColumnName="ecID1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecName1" msprop:Generator_ColumnPropNameInRow="ecName1" msprop:Generator_ColumnPropNameInTable="ecName1Column" msprop:Generator_ColumnVarNameInTable="columnecName1" msprop:Generator_UserColumnName="ecName1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecYear1" msprop:Generator_ColumnPropNameInRow="ecYear1" msprop:Generator_ColumnPropNameInTable="ecYear1Column" msprop:Generator_ColumnVarNameInTable="columnecYear1" msprop:Generator_UserColumnName="ecYear1" type="xs:int" minOccurs="0" />
+              <xs:element name="ecPrice1" msprop:Generator_ColumnPropNameInRow="ecPrice1" msprop:Generator_ColumnPropNameInTable="ecPrice1Column" msprop:Generator_ColumnVarNameInTable="columnecPrice1" msprop:Generator_UserColumnName="ecPrice1" type="xs:int" minOccurs="0" />
+              <xs:element name="ecAvailability1" msprop:Generator_ColumnPropNameInRow="ecAvailability1" msprop:Generator_ColumnPropNameInTable="ecAvailability1Column" msprop:Generator_ColumnVarNameInTable="columnecAvailability1" msprop:Generator_UserColumnName="ecAvailability1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecTransmission1" msprop:Generator_ColumnPropNameInRow="ecTransmission1" msprop:Generator_ColumnPropNameInTable="ecTransmission1Column" msprop:Generator_ColumnVarNameInTable="columnecTransmission1" msprop:Generator_UserColumnName="ecTransmission1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ecFuel1" msprop:Generator_ColumnPropNameInRow="ecFuel1" msprop:Generator_ColumnPropNameInTable="ecFuel1Column" msprop:Generator_ColumnVarNameInTable="columnecFuel1" msprop:Generator_UserColumnName="ecFuel1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanID" msprop:Generator_ColumnPropNameInRow="vanID" msprop:Generator_ColumnPropNameInTable="vanIDColumn" msprop:Generator_ColumnVarNameInTable="columnvanID" msprop:Generator_UserColumnName="vanID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanName" msprop:Generator_ColumnPropNameInRow="vanName" msprop:Generator_ColumnPropNameInTable="vanNameColumn" msprop:Generator_ColumnVarNameInTable="columnvanName" msprop:Generator_UserColumnName="vanName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanYear" msprop:Generator_ColumnPropNameInRow="vanYear" msprop:Generator_ColumnPropNameInTable="vanYearColumn" msprop:Generator_ColumnVarNameInTable="columnvanYear" msprop:Generator_UserColumnName="vanYear" type="xs:int" minOccurs="0" />
+              <xs:element name="vanPrice" msprop:Generator_ColumnPropNameInRow="vanPrice" msprop:Generator_ColumnPropNameInTable="vanPriceColumn" msprop:Generator_ColumnVarNameInTable="columnvanPrice" msprop:Generator_UserColumnName="vanPrice" type="xs:int" minOccurs="0" />
+              <xs:element name="vanAvailability" msprop:Generator_ColumnPropNameInRow="vanAvailability" msprop:Generator_ColumnPropNameInTable="vanAvailabilityColumn" msprop:Generator_ColumnVarNameInTable="columnvanAvailability" msprop:Generator_UserColumnName="vanAvailability" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanTransmission" msprop:Generator_ColumnPropNameInRow="vanTransmission" msprop:Generator_ColumnPropNameInTable="vanTransmissionColumn" msprop:Generator_ColumnVarNameInTable="columnvanTransmission" msprop:Generator_UserColumnName="vanTransmission" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanFuel" msprop:Generator_ColumnPropNameInRow="vanFuel" msprop:Generator_ColumnPropNameInTable="vanFuelColumn" msprop:Generator_ColumnVarNameInTable="columnvanFuel" msprop:Generator_UserColumnName="vanFuel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvID" msprop:Generator_ColumnPropNameInRow="suvID" msprop:Generator_ColumnPropNameInTable="suvIDColumn" msprop:Generator_ColumnVarNameInTable="columnsuvID" msprop:Generator_UserColumnName="suvID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvName" msprop:Generator_ColumnPropNameInRow="suvName" msprop:Generator_ColumnPropNameInTable="suvNameColumn" msprop:Generator_ColumnVarNameInTable="columnsuvName" msprop:Generator_UserColumnName="suvName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvYear" msprop:Generator_ColumnPropNameInRow="suvYear" msprop:Generator_ColumnPropNameInTable="suvYearColumn" msprop:Generator_ColumnVarNameInTable="columnsuvYear" msprop:Generator_UserColumnName="suvYear" type="xs:int" minOccurs="0" />
+              <xs:element name="suvPrice" msprop:Generator_ColumnPropNameInRow="suvPrice" msprop:Generator_ColumnPropNameInTable="suvPriceColumn" msprop:Generator_ColumnVarNameInTable="columnsuvPrice" msprop:Generator_UserColumnName="suvPrice" type="xs:int" minOccurs="0" />
+              <xs:element name="suvAvailability" msprop:Generator_ColumnPropNameInRow="suvAvailability" msprop:Generator_ColumnPropNameInTable="suvAvailabilityColumn" msprop:Generator_ColumnVarNameInTable="columnsuvAvailability" msprop:Generator_UserColumnName="suvAvailability" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvTransmission" msprop:Generator_ColumnPropNameInRow="suvTransmission" msprop:Generator_ColumnPropNameInTable="suvTransmissionColumn" msprop:Generator_ColumnVarNameInTable="columnsuvTransmission" msprop:Generator_UserColumnName="suvTransmission" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvFuel" msprop:Generator_ColumnPropNameInRow="suvFuel" msprop:Generator_ColumnPropNameInTable="suvFuelColumn" msprop:Generator_ColumnVarNameInTable="columnsuvFuel" msprop:Generator_UserColumnName="suvFuel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanID1" msprop:Generator_ColumnPropNameInRow="vanID1" msprop:Generator_ColumnPropNameInTable="vanID1Column" msprop:Generator_ColumnVarNameInTable="columnvanID1" msprop:Generator_UserColumnName="vanID1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanName1" msprop:Generator_ColumnPropNameInRow="vanName1" msprop:Generator_ColumnPropNameInTable="vanName1Column" msprop:Generator_ColumnVarNameInTable="columnvanName1" msprop:Generator_UserColumnName="vanName1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanYear1" msprop:Generator_ColumnPropNameInRow="vanYear1" msprop:Generator_ColumnPropNameInTable="vanYear1Column" msprop:Generator_ColumnVarNameInTable="columnvanYear1" msprop:Generator_UserColumnName="vanYear1" type="xs:int" minOccurs="0" />
+              <xs:element name="vanPrice1" msprop:Generator_ColumnPropNameInRow="vanPrice1" msprop:Generator_ColumnPropNameInTable="vanPrice1Column" msprop:Generator_ColumnVarNameInTable="columnvanPrice1" msprop:Generator_UserColumnName="vanPrice1" type="xs:int" minOccurs="0" />
+              <xs:element name="vanAvailability1" msprop:Generator_ColumnPropNameInRow="vanAvailability1" msprop:Generator_ColumnPropNameInTable="vanAvailability1Column" msprop:Generator_ColumnVarNameInTable="columnvanAvailability1" msprop:Generator_UserColumnName="vanAvailability1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanTransmission1" msprop:Generator_ColumnPropNameInRow="vanTransmission1" msprop:Generator_ColumnPropNameInTable="vanTransmission1Column" msprop:Generator_ColumnVarNameInTable="columnvanTransmission1" msprop:Generator_UserColumnName="vanTransmission1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="vanFuel1" msprop:Generator_ColumnPropNameInRow="vanFuel1" msprop:Generator_ColumnPropNameInTable="vanFuel1Column" msprop:Generator_ColumnVarNameInTable="columnvanFuel1" msprop:Generator_UserColumnName="vanFuel1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvID1" msprop:Generator_ColumnPropNameInRow="suvID1" msprop:Generator_ColumnPropNameInTable="suvID1Column" msprop:Generator_ColumnVarNameInTable="columnsuvID1" msprop:Generator_UserColumnName="suvID1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvName1" msprop:Generator_ColumnPropNameInRow="suvName1" msprop:Generator_ColumnPropNameInTable="suvName1Column" msprop:Generator_ColumnVarNameInTable="columnsuvName1" msprop:Generator_UserColumnName="suvName1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvYear1" msprop:Generator_ColumnPropNameInRow="suvYear1" msprop:Generator_ColumnPropNameInTable="suvYear1Column" msprop:Generator_ColumnVarNameInTable="columnsuvYear1" msprop:Generator_UserColumnName="suvYear1" type="xs:int" minOccurs="0" />
+              <xs:element name="suvPrice1" msprop:Generator_ColumnPropNameInRow="suvPrice1" msprop:Generator_ColumnPropNameInTable="suvPrice1Column" msprop:Generator_ColumnVarNameInTable="columnsuvPrice1" msprop:Generator_UserColumnName="suvPrice1" type="xs:int" minOccurs="0" />
+              <xs:element name="suvAvailability1" msprop:Generator_ColumnPropNameInRow="suvAvailability1" msprop:Generator_ColumnPropNameInTable="suvAvailability1Column" msprop:Generator_ColumnVarNameInTable="columnsuvAvailability1" msprop:Generator_UserColumnName="suvAvailability1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvTransmission1" msprop:Generator_ColumnPropNameInRow="suvTransmission1" msprop:Generator_ColumnPropNameInTable="suvTransmission1Column" msprop:Generator_ColumnVarNameInTable="columnsuvTransmission1" msprop:Generator_UserColumnName="suvTransmission1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="suvFuel1" msprop:Generator_ColumnPropNameInRow="suvFuel1" msprop:Generator_ColumnPropNameInTable="suvFuel1Column" msprop:Generator_ColumnVarNameInTable="columnsuvFuel1" msprop:Generator_UserColumnName="suvFuel1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:elecCar" />
+      <xs:field xpath="mstns:CarID" />
+      <xs:field xpath="mstns:CarID1" />
+      <xs:field xpath="mstns:vanID" />
+      <xs:field xpath="mstns:suvID" />
+      <xs:field xpath="mstns:vanID1" />
+      <xs:field xpath="mstns:suvID1" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
